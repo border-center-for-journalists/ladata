@@ -1,0 +1,120 @@
+body {
+    background-color: #1E191B;
+    font-family: 'Aleo', serif;
+}
+
+.card-body {
+    background-color: #1E191B;
+    font-family: 'Aleo', serif;
+}
+
+p, h2, th, li {
+    color: white;
+    font-family: 'Aleo', serif;
+}
+
+h2 {
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.bots {
+    padding-top: 1rem;
+}
+
+.pelem {
+    padding-top: 3rem;
+    color: #FFC107;
+}
+
+.pelem a {
+    color: #FFC107;
+}
+
+.helem h2 {
+    color: #FFC107;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dota {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.promo {
+    background-color: #00FFF0;
+}
+
+.acc {
+    background-color: #FF8DB0;
+}
+
+.aten {
+    background-color: #625F4E;
+}
+
+.cap {
+    background-color: #FEF300;
+}
+
+.cump {
+    background-color: #00BB7A;
+}
+
+.proc {
+    background-color: #FFC372;
+}
+
+.parc {
+    background-color: #FEF300;
+}
+
+.nocu {
+    background-color: #FD4A02;
+}
+
+.pl1 {
+    background-color: #FEF300;
+}
+
+.pl2 {
+    background-color: #FFD945;
+}
+
+.pl3 {
+    background-color: #FFB799;
+}
+
+.pl4 {
+    background-color: #F98E72;
+}
+
+.pl5 {
+    background-color: #00FFF0;
+}
+
+.pl6 {
+    background-color: #00DBB8;
+}
+
+.pl7 {
+    background-color: #FF8DB0;
+}
+
+.pl8 {
+    background-color: #FFC372;
+}
+
+#linecont {
+    overflow-y: scroll;
+}
+
+

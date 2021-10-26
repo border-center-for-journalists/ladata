@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row g-0">
+    <h2>Incidencia de Delitos de Violencia Contra las Mujeres</h2>
+      <div class="col-sm-6">
+        <p>Indicadores:</p>
+        <ul>
+          <li>Feminicidio</li>
+          <li>Feminicidio en Grado de Tentativa </li>
+          <li>Homicidio Doloso (Víctima Femenino) </li>
+          <li>Violencia Familiar (Víctima Femenino)</li>
+        </ul>
+        </div>
+        <div class="col-sm-6">
+        <p>
+            <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Metodología
+            </a>
+
+        </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>Los datos se obtuvieron de la Fiscalía General de Justicia de Nuevo León a través de solicitudes de acceso a la información.</p>
+                <p>Los datos de feminicidio parten del año 2013 en que fue tipificado el delito en el Código Penal estatal y los de tentativa de feminicidio parten del 2019, año en el que la Fiscalía comenzó a registrar este delito.</p>
+                <p>El plazo del tiempo aquí presente (del año 2010 a la fecha de recepción de nuestras solicitudes de información) se eligió con el propósito de mostrar el contexto de violencia que atraviesan las mujeres en Nuevo León, misma que condujo a la solicitud de la Alerta de Género por parte de sociedad civil en el año 2012. Conavim emitió la Alerta hasta 2016.</p>
+            </div>
+          </div>
+        </div>
+      <div id="contexto" class="col-sm-8"></div>
+      <div id="timeline" class="col-sm-4">
+        <div class="text-center" id="bots">
+          <div class="btn-group bots" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-outline-warning anterior">Anterior</button>
+            <button type="button" class="btn btn-outline-warning siguiente">Siguiente</button>
+          </div>
+        </div>
+        <div id="linecont"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fflate/umd/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="./js/contexto.js" type="module"></script>
+</body>
+</html>

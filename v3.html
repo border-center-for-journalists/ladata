@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <h2>Ejercicio de la Partida "Alerta de Género Municipal"</h2>
+        <div class="col-sm-6">
+          <p>Indicadores:</p>
+          <ul>
+              <li>Municipios: Monterrey, Guadalupe, Cadereyta, Juárez, Apodaca</li>
+              <li>Categorías de gasto: <span class="dota promo"></span> Promoción, <span class="dota aten"></span> Unidad de Atención a la Mujer, <span class="dota cap"></span> Capacitación, <span class="dota acc"></span> Acciones Alerta de Género</li>
+  
+          </ul>
+          </div>
+          <div class="col-sm-6">
+          <p>
+              <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Metodología
+              </a>
+  
+          </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                  <p>Los datos se obtuvieron a través de solicitudes de acceso a la información a cada uno de los cinco municipios con Alerta de Género. Desde 2018, los cinco municipios acceden cada año a una partida llamada "Alerta de Género Municipal" a través de un proyecto que presentan al Instituto Estatal de las Mujeres. El ejercicio aquí presentado es reflejo de la ejecución de dichos proyectos y es solo una fracción del total que ejercen los municipios para atender la Alerta de Género. Es difícil rastrear cuánto invierte cada dependendencia del estado de Nuevo León en la Alerta dado que no existe un registro ni una partida etiquetada como tal.</p>
+                  <p>Decidimos agrupar el gasto en cuatro categorías elaboradas por nosotros para sintetizar las actividades que se llevaron a cabo. Cada municipio ejecuta este presupuesto en proyectos diferentes, a través de organismos distintos y en sus propias estrategias.</p>
+              </div>
+            </div>
+          </div>
+      <div id="botones_gasto" class="col-sm-12 text-center"></div>
+      <div id="gastvis" class="col-sm-12"></div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="botones_presupuesto" class="col-sm-12 text-center"></div>
+      <div id="presvis" class="col-sm-12"></div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fflate/umd/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="./js/gasto.js" type="module"></script>
+</body>
+</html>
