@@ -1,6 +1,8 @@
 body {
     background-color: #1E191B;
     font-family: 'Aleo', serif;
+    padding: 0;
+    margin: 0;
 }
 
 .card-body {
