@@ -84,6 +84,11 @@ d3.csv("./resources/data/dictamenes.csv")
 
         })
 
+        let sel1 = "#vis1"
+        let w1 = parseInt(d3.select(sel1).style("width"))
+        let h1 = parseInt(d3.select(sel1).style("height"))
+        console.log("vis1",w1,h1,h1/w1)
+
     });
 
 function proceso_semaforo(data) {
@@ -103,3 +108,4 @@ function proceso_semaforo(data) {
 
     return Object.values(sem_data)
 }
+

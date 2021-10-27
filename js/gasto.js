@@ -144,6 +144,11 @@ d3.csv("./resources/data/gastos.csv")
             });
         }
 
+        let sel4 = "#vis4"
+        let w4 = parseInt(d3.select(sel4).style("width"))
+        let h4 = parseInt(d3.select(sel4).style("height"))
+        console.log("vis4",w4,h4,h4/w4)
+
     }
 
     function dendogram(parte0, hierarchy) {

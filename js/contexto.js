@@ -281,4 +281,9 @@ let series = d3.csv("./resources/data/series_line.csv")
                 let hsvg = parseInt(d3.select("#contexto").style("height"));
                 d3.select("#linecont").style("height",hsvg - hb + "px");
 
+                let sel2 = "#vis2"
+                let w2 = parseInt(d3.select(sel2).style("width"))
+                let h2 = parseInt(d3.select(sel2).style("height"))
+                console.log("vis2",w2,h2,h2/w2)
+
             })

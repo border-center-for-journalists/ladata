@@ -40,6 +40,11 @@ d3.csv("./resources/data/presupuestos.csv")
 
         treemap(parte0,hierarchy);
 
+        let sel3 = "#vis3"
+        let w3 = parseInt(d3.select(sel3).style("width"))
+        let h3 = parseInt(d3.select(sel3).style("height"))
+        console.log("vis3",w3,h3,h3/w3)
+
     })
 
     function treemap(parte0, hierarchy) {

@@ -1,8 +1,6 @@
 body {
     background-color: #1E191B;
     font-family: 'Aleo', serif;
-    padding: 0;
-    margin: 0;
 }
 
 .card-body {
@@ -50,6 +48,13 @@ h2 {
   border-radius: 50%;
   display: inline-block;
 }
+
+.dotb {
+    height: 0.9rem;
+    width: 0.9rem;
+    border-radius: 50%;
+    display: inline-block;
+  }
 
 .promo {
     background-color: #00FFF0;
@@ -114,6 +119,16 @@ h2 {
 .pl8 {
     background-color: #FFC372;
 }
+
+.circa {
+    background-color: #FEF300;
+    border: 1px solid white;
+}
+.borda {
+    background-color: #1E191B;
+    border: 1px solid white;
+}
+
 
 #linecont {
     overflow-y: scroll;
